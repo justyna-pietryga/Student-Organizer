@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="justyna.example.com.organizerstudencki.SubjectsActivity" />
+        <activity android:name="justyna.example.com.organizerstudencki.AddingSubjectActivity" />
+        <activity android:name="justyna.example.com.organizerstudencki.LessonsAddingActivity" />
     </application>
 
 </manifest>
