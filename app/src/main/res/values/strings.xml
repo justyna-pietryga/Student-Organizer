@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">OrganizerStudencki</string>
+    <string name="app_name">Organizer Studencki</string>
+    <string name="wyk_adowcy">Wykładowcy</string>
+    <string name="zadania">Zadania</string>
+    <string name="plan_zaj">Plan zajęć</string>
+    <string name="przedmioty">Przedmioty</string>
+    <string name="title_activity_subjects">SubjectsActivity</string>
+    <string name="adding_subject_title">Dodawanie przedmiotu</string>
+    <string name="nazwa_przedmiotu">Nazwa przedmiotu</string>
+    <string name="jakie_zaj_cia_przewiduje_przedmiot">Jakie zajęcia przewiduje przedmiot?</string>
+    <string name="wyk_ad">Wykład</string>
+    <string name="cwiczenia">Cwiczenia</string>
+    <string name="laboratoria">Laboratoria</string>
+    <string name="dalej">Dalej</string>
+
+    <string-array name="spinnerDays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
 </resources>
