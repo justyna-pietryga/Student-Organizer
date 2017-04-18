@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lessons_adding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="justyna.example.com.organizerstudencki.LessonsAddingActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/teacherEditText"
+        android:hint="Prowadzący"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teacherEditText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/day_of_week_spinner"
+        android:entries="@array/spinnerDays"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lessonsOKbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.70"
+        android:scaleY="0.70"
+        android:id="@+id/timePicker"
+        android:layout_below="@+id/teacherEditText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/timePicker"
+        android:layout_alignParentStart="true"
+        android:id="@+id/roomNumber_editText"
+        android:hint="Sala" />
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/duration_editText"
+        android:hint="Czas trwania (min)"
+        android:layout_below="@+id/timePicker"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
